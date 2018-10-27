@@ -1,0 +1,11 @@
+create src and dist folder
+index.html create the ui and added two buttons
+index.js intially its showing no boxes message
+Add Box button adds a new box
+Each new box will have a count number assigned
+on click Add Box Alternating box will be in blue and black color
+Total Count of boxes is show below the stack
+Font Size of the Total Count increases with box count
+Also, every 5th box (5, 10, 15, etc) has an Orange border on top
+On clicking Remove box, removes the last box
+When you no boxes remain, a message appears
