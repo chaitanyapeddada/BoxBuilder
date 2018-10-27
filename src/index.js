@@ -4,13 +4,13 @@
     document.querySelector(".initalcount").style.fontSize = "10px";
 })();
 let count = 1;
-var domElement = document.querySelector(".initalcount");
+let domElement = document.querySelector(".initalcount");
 //if user click add button box added to the box
 document.querySelector('.btn-primary').addEventListener('click', e => {
     count = domElement.innerText === 'No boxes' ? 1 :
         parseInt(domElement.innerText) + 1;
     domElement.textContent = count;
-    
+    //if count multiply 5 orange color box will display and alternative box color will change
     if (count % 5 === 0) {
         $('#box-build').append('<span class="badge" style="background-color:#b56a0e">' + count + '</span>');
     } else if (count % 2 === 0) {

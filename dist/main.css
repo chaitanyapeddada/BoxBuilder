@@ -3,11 +3,9 @@ body{
     background-image: linear-gradient(#cfb2b2, #aeae96);
 }
 .initalcount{
-    /* display: block; */
     padding: 20px;
     top: 20%;
     min-height: 300px!important;
-    /* position: fixed!important; */
 }
 #box-build{
     padding-top: 30px;
